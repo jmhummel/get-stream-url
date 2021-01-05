@@ -1,6 +1,10 @@
 # GetStreamUrl
+[![CircleCI](https://circleci.com/gh/jmhummel/angular-book-manager.svg?style=svg&circle-token=979d3d0f650ee7827779e382f503014f0fb271a0)](https://circleci.com/gh/jmhummel/angular-book-manager)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.4.
+
+## Try it out
+https://jmhummel.github.io/angular-book-manager/
 
 ## Development server
 
@@ -13,6 +17,11 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+## Build for Github
+Run `ng build --prod --output-path docs --base-href "/get-stream-url/"`
+
+[Publishing your GitHub Pages site from a /docs folder on your master branch](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/#publishing-your-github-pages-site-from-a-docs-folder-on-your-master-branch)
 
 ## Running unit tests
 
